@@ -1,0 +1,33 @@
+@media only screen and (min-width:375px) {
+
+    .banner__price {
+        width: 330px;
+    }
+
+    .price__title {
+        font-size: 22px;
+        
+    }
+
+    .price__text p {
+        font-size: 14px;
+    }
+
+    .banner__list-item {
+        font-size: 17px;
+    }
+
+    .price__button {
+        width: 160px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width:414px) {
+
+    .banner__price {
+        width: 375px;
+    }
+
+    
+}
