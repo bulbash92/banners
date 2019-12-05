@@ -1,5 +1,10 @@
 @media only screen and (min-width:375px) {
 
+    .banner__title {
+        margin-top: 125px;
+    }
+
+
     .banner__price {
         width: 330px;
     }
@@ -13,6 +18,10 @@
         font-size: 14px;
     }
 
+    .banner__list {
+        margin-left: 60px;
+    }
+
     .banner__list-item {
         font-size: 17px;
     }
@@ -21,13 +30,51 @@
         width: 160px;
         font-size: 14px;
     }
+
+    .banner__text {
+        top: 590px;
+        padding: 35px;
+        font-size: 13px;
+    }
 }
 
+
 @media only screen and (min-width:414px) {
+
+    .banner__title {
+        margin-top: 160px;
+    }
+
 
     .banner__price {
         width: 375px;
     }
 
+    .banner__list {
+        margin-left: 85px;
+    }
+
+    .banner__text {
+        top: 650px;
+        padding: 45px;
+    }
+
+}
+
+@media only screen and (min-height:812px) {
     
+    .banner__title {
+        margin-top: 195px;
+    }
+
+    .banner__text {
+        top: 690px;
+        padding: 45px;
+       
+    }
+
+    .white {
+        height: 45px;
+        
+    }
 }
